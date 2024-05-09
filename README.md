@@ -16,12 +16,11 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 
 ## Program:
-```
-/*
-Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
-Developed by: Jwalamukhi S
-RegisterNumber: 212223040079
 
+### Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
+### Developed by: Jwalamukhi S
+### RegisterNumber: 212223040079
+```
 import pandas as pd
 data=pd.read_csv("Employee.csv")
 data.head()
@@ -45,44 +44,50 @@ from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
-*/
+
 ```
 
 ## Output:
 Data.head():
 
-![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/1ff6d829-2b8f-4fbb-bd47-1c2ad30e9afd)
+![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/471ec174-9411-43f1-8cfe-f70f37616849)
+
 
 
 Data.info():
-![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/691cb017-0dc8-4770-80ae-1fb21f85703f)
+
+![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/0a7c01e9-62eb-4e4e-a292-c42580a06b11)
 
 isnull() and sum():
 
-![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/58ceb990-55f3-4627-acc0-6de668083cff)
+![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/98f6912a-2a70-4dee-b2e1-3e5a48982f4e)
 
 
 Data Value Counts():
 
-![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/8f8667ad-8fca-444a-9147-c0b2edfc5f1c)
+![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/89876ef2-1340-49b9-8e42-ef16bb8bfc87)
 
 
 Data.head() for salary:
 
-![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/0fcf4431-5b28-4dc9-af77-89ec5349e76b)
+![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/a82f0207-6316-45cb-a38d-4a6b58595425)
 
 
 x.head:
-![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/3fad299a-cc3f-4067-869c-bf1a7acb0a42)
+
+![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/3f2170ed-3e92-4669-adfb-3e783e1769d4)
 
 
 Accuracy Value:
 
-![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/f7a422ea-6fe9-4ae6-8b02-80a50063bdf8)
+![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/df63131c-f73d-492a-be30-dac9bb064ef7)
+
 
 
 Data Prediction:
-![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/d97e3136-2c84-4940-8aac-36114c4caaac)
+
+![image](https://github.com/Jwalamukhi/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/145953628/bc26f313-ebd2-4e44-b37f-9249b9624d63)
+
 
 
 ## Result:
